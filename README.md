@@ -1,7 +1,7 @@
-# YOLOv4_Tiny_Imrovement
+# Object Detection Model Performance Imrovement Strategies
 Generally, small objects are very difficult to detect. Hence to improve the detection of the small objects, few strategies can be immplemented before training the model
 ## Increasing the image capture resolution
-Very small objects generally represented by few pixels within image, hence it is very important to increase the resolution of your image, which indirectly increasing the qulality of the fetures that your detector will form from that small object.
+Very small objects generally represented by few pixels within image, hence it is very important to increase the resolution of your image, which indirectly increasing the qulality of the features that your detector will form from that small object.
 ## Increasing the model's input resolution
 After capturing the higher resolution images, increasing the width and height of the image to scale up the model's input image.
 ## Tiling the images
